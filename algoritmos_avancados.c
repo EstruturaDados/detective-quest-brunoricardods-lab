@@ -6,7 +6,7 @@
 
 // 1. Definição do nó (cômodo) da Árvore Binária
 typedef struct No {
-    char nome[50];       // Nome do cômodo (Sala de estar, Cozinha, etc.)
+    char nome[50];       // Nome do cômodo 
     struct No *esquerda; // Ponteiro para o cômodo da esquerda
     struct No *direita;  // Ponteiro para o cômodo da direita
 } Comodo;
